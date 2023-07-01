@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WeatherSense</title>
+    <style>
+        body {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            font-family: sans-serif;
+            background-color: rgb(240, 228, 228);
+            
+        }
+
+        h1 {
+            font-family: cursive;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 2em;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .container {
+            width: 500px;
+            margin: 0 auto;
+            background-color:  rgb(227, 176, 176);
+            /* background-color:  rgb(170, 224, 166); */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .result {
+            font-size: 1.5em;
+            color: #000000;
+            /* font-family: cursive; */
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather Classification</h1>
+    <div class="container">
+        <ul>
+            <li>
+                <img src="{{ url_for('static', filename='images/temp.png') }}" alt="Object Detection Result">
+            </li>
+            <li class="result">
+                {{ result[0] }} with {{ result[1] }} Probability
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
