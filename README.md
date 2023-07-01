@@ -61,3 +61,30 @@ Technologies used in the project:
 *   HTML
 *   CSS
 *   Flask
+
+<h2>Usage</h2>
+
+1. Weather Forecasting: This model could be used to improve weather forecasting by analyzing images from weather satellites or ground-based cameras. It could help in identifying weather patterns and predicting future weather conditions.
+2. Outdoor Event Planning: Event planners could use this model to check the weather conditions at their event location. This could help them for contingencies in case of adverse weather.
+3. Smart Home Automation: Your weather classification model could be integrated into smart home systems. By analyzing images from outdoor cameras, the system could automatically adjust settings such as temperature, lighting, or irrigation based on the detected weather conditions.
+4. Environmental Monitoring: Your model could be applied to monitor and analyze weather conditions in remote or inaccessible areas. By analyzing images captured by cameras or drones, it could provide valuable data for environmental research and monitoring.
+5. Social Media Analysis: Your weather classification model could be used to analyze images shared on social media platforms. This could help in understanding the weather conditions in different locations based on user-generated content.
+
+<h2>Contributing</h2>
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/prathmesh-yakkaldevi/Weather_Sense/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
+* Please make sure you check your spelling and grammar.
+* Create individual PR for each suggestion.
+
+<h2>Creating A Pull Request</h2>
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<h2>Authors</h2>
+
+* **Prathmesh Yakkaldevi** - *Mtech in SWE, DTU* - [Linkdin](https://www.linkedin.com/in/prathmesh-yakkaldevi/)
