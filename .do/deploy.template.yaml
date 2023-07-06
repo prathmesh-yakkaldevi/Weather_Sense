@@ -1,0 +1,7 @@
+spec:
+  name: Weather_Sense
+  services:
+  - name: web
+    git:
+      branch: main
+      repo_clone_url: prathmesh-yakkaldevi/Weather_Sense
