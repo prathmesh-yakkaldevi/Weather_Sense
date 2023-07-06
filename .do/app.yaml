@@ -1,0 +1,6 @@
+name: Weather_Sense
+services:
+- name: web
+  github:
+    repo: prathmesh-yakkaldevi/Weather_Sense
+    branch: main
