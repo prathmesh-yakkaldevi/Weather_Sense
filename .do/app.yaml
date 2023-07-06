@@ -1,4 +1,4 @@
-name: Weather_Sense
+name: Weather-Sense
 services:
 - name: web
   github:
