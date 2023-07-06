@@ -1,5 +1,5 @@
 spec:
-  name: Weather-Sense
+  name: weather-Sense
   services:
   - name: web
     git:
